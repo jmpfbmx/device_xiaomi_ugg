@@ -719,8 +719,10 @@ service profiler_daemon /system/bin/profiler_daemon
 
 service charger /charger
     class charger
-    group system graphics
-    seclabel u:r:healthd:s0
+    user system
+    group system graphics input
+    capabilities SYS_BOOT
+    seclabel u:r:charger:s0
 
 service ssr_diag /system/bin/ssr_diag
     class late_start
