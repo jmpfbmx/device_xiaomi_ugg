@@ -1,20 +1,22 @@
-Device configuration for Xiaomi Redmi 4[IN]/4X  (_santoni_)
+Device configuration for Redmi Note 5A Prime / Y1  (_ugg_)
 =====================================================
+
+## Device specifications
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Octa-core 1.4 GHz Cortex-A53
-CHIPSET | Qualcomm MSM8940 Snapdragon 435
-GPU     | Adreno 505
-Memory  | 2 GB/3 GB/4 GB
-Shipped Android Version | Android 6.0.1 with MIUI 8
-Storage | 16 GB/32 GB/64 GB
+CPU     | Quad-core 1.4 GHz Cortex-A53
+CHIPSET | Qualcomm MSM8937 Snapdragon 425
+GPU     | Adreno 308
+Memory  | 2 GB
+Shipped Android Version | Android 7.1.2 with MIUI 8
+Storage | 16 GB
 MicroSD | Up to 256 GB (Hybrid)
-Battery | 4100 mAh (non-removable)
-Dimensions | 139.2 x 70 x 8.7 mm
-Display | 720 x 1280 pixels, 5.0" IPS
+Battery | 3080 mAh (non-removable)
+Dimensions | 153 x 76.2 x 7.6 mm
+Display | 720 x 1280 pixels, 5.5" IPS
 Rear Camera  | 13.0 MP, LED flash
 Front Camera | 5.0 MP
-Release Date | May 2017
+Release Date | November 2017
 
-![Xiaomi Redmi 4[IN]/4X](https://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-4x-2.jpg "Xiaomi Redmi 4[IN]/4X")
+![Redmi Note 5A Prime / Y1](https://souqcms.s3.amazonaws.com/spring/images/2017/Xiaomi/Redmi-Note-5A-Dual-Sim/4-Redmi-Note-5A-Dual-Sim-Grey.jpg "Redmi Note 5A Prime / Y1")

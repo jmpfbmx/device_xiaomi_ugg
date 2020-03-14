@@ -7,9 +7,9 @@
   },
   {
     "remote": "github",
-    "repository": "PixelExperience-Devices/kernel_xiaomi_santoni",
-    "target_path": "kernel/xiaomi/santoni",
-    "branch": "ten"
+    "repository": "adislice/android_kernel_xiaomi_msm8937",
+    "target_path": "kernel/xiaomi/msm8937",
+    "branch": "lineage-17.0"
   },
   {
     "remote": "pixel-gitlab",

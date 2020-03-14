@@ -23,7 +23,7 @@ set -e
 export INITIAL_COPYRIGHT_YEAR=2017
 
 # Required!
-DEVICE=santoni
+DEVICE=ugg
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks

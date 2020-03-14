@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/santoni
+DEVICE_PATH := device/xiaomi/ugg
 
 # Architecture
 TARGET_ARCH := arm64
@@ -44,8 +44,8 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_COMPILE_WITH_MSM_KERNEL := true
-TARGET_KERNEL_CONFIG := santoni_treble_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/santoni
+TARGET_KERNEL_CONFIG := ugg_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8937
 TARGET_KERNEL_VERSION := 3.18
 TARGET_KERNEL_CLANG_COMPILE := true
 
@@ -165,8 +165,8 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_santoni
-TARGET_RECOVERY_DEVICE_MODULES := libinit_santoni
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_ugg
+TARGET_RECOVERY_DEVICE_MODULES := libinit_ugg
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
@@ -238,7 +238,7 @@ WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
--include vendor/xiaomi/santoni/BoardConfigVendor.mk
+-include vendor/xiaomi/ugg/BoardConfigVendor.mk
 
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake"
