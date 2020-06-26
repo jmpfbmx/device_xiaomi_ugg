@@ -17,6 +17,7 @@ $(call inherit-product, device/xiaomi/ugg/full_ugg.mk)
 
 # Inherit some common PixelExperience stuff.
 TARGET_BOOT_ANIMATION_RES := 720
+TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := ugg
