@@ -43,7 +43,7 @@ TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78B0000 loop.max_part=7
-ifeq ($(TARGET_KERNEL_VERSION), 4.9)
+ifeq ($(TARGET_KERNEL_VERSION), 3.18)
 BOARD_KERNEL_CMDLINE += androidboot.usbconfigfs=true
 endif
 #BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
@@ -54,7 +54,8 @@ TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_CONFIG := ugg_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/ugg
 TARGET_KERNEL_VERSION := 3.18
-TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_COMPILE_WITH_MSM_KERNEL := true
+TARGET_KERNEL_ARCH := arm64
 
 # Audio
 AUDIO_USE_LL_AS_PRIMARY_OUTPUT := true
