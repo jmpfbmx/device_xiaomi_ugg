@@ -19,13 +19,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
-# Inherit from santoni device
-$(call inherit-product, device/xiaomi/santoni/device.mk)
+# Inherit from UGG device
+$(call inherit-product, device/xiaomi/ugg/device.mk)
 
 # Device identifier. This must come after all inclusions
 TARGET_VENDOR := Xiaomi
-PRODUCT_DEVICE := santoni
-PRODUCT_NAME := full_santoni
+PRODUCT_DEVICE := ugg
+PRODUCT_NAME := full_ugg
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 4X
+PRODUCT_MODEL := Redmi Note 5A Prime / Y1
 PRODUCT_MANUFACTURER := Xiaomi

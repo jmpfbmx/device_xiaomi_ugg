@@ -13,24 +13,26 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-$(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
+$(call inherit-product, device/xiaomi/ugg/full_ugg.mk)
 
 # Inherit some common PixelExperience stuff.
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 720
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_DEVICE := santoni
+PRODUCT_DEVICE := ugg
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 4X
-PRODUCT_NAME := aosp_santoni
+PRODUCT_MODEL := Redmi Note 5A Prime / Y1
+PRODUCT_NAME := aosp_ugg
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="santoni-user 7.1.2 N2G47H V9.5.10.0.NAMMIFD release-keys"
+    TARGET_DEVICE="ugg" \
+    PRODUCT_NAME="ugg" \
+    PRIVATE_BUILD_DESC="ugg-user 7.1.2 N2G47H V9.5.8.0.NDKMIFA release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "Xiaomi/santoni/santoni:7.1.2/N2G47H/V9.5.10.0.NAMMIFD:user/release-keys"
+BUILD_FINGERPRINT := "xiaomi/ugg/ugg:7.1.2/N2G47H/V9.5.8.0.NDKMIFA:user/release-keys"

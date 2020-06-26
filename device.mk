@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Installs GSI keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
-$(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)
+$(call inherit-product, vendor/xiaomi/ugg/ugg-vendor.mk)
 
 # HALs
 PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8996/display
@@ -447,7 +447,7 @@ PRODUCT_PACKAGES += \
     libsensorndkbridge
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += device/xiaomi/santoni
+PRODUCT_SOONG_NAMESPACES += device/xiaomi/ugg
 
 # TextClassifier
 PRODUCT_PACKAGES += \
